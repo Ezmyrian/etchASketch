@@ -1,0 +1,3 @@
+create main div to hold grid
+create 16 divs in each of 16 divs in main div
+use flexbox to make divs appear as squares of grid
