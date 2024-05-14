@@ -1,3 +1,10 @@
 create main div to hold grid
 create 16 divs in each of 16 divs in main div
 use flexbox to make divs appear as squares of grid
+
+use hover effect to change color of div as mouse moves over them
+add button to prompt user for number of new squares per side
+delete old grid and replace with new grid of size user input with limit of 100
+
+change rgb value each time square is hovered
+darken square by 10% each time it is hovered, after 10 times square should be black
