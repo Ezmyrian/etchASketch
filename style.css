@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, .grid, .row {
+  display: flex;
+  flex: 1;
+}
+
+body {
+  height: 100vh;
+}
+
+.grid {
+  flex-direction: column;
+}
+
+.square {
+  flex: 1;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}
