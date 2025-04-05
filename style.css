@@ -5,18 +5,36 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+.container,
+.spacer,
+.center,
+.header {
     display: flex;
 }
 
 .container {
-    display: flex;
-    aspect-ratio: 1/1;
-    height: 100vh;
+    flex: 1 1 auto;
 }
 
 .spacer {
-    display: flex;
     flex: 1 1 auto;
     background-color: black;
+}
+
+.center {
+    flex-direction: column;
+    height: 100vh;
+    aspect-ratio: 1/1;
+}
+
+.header {
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    background-color: #bdbdbd;
+}
+
+button {
+    padding: 5px;
 }
