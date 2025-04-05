@@ -23,24 +23,3 @@ divs.forEach((div) => {
         div.style.backgroundColor = "black"
     })
 });
-
-const header = document.querySelector('.header');
-const newGridButton = document.createElement('button');
-newGridButton.textContent = "New Grid";
-header.appendChild(newGridButton);
-newGridButton.addEventListener('click', () => {
-    let newGridSize = +prompt("How big would you like the grid to be?", "Default 16, Max 100");
-    console.log(newGridSize)
-    if (newGridSize < 16) {
-        createDivs();
-        header.textContent = `Grid size: 16`
-    }
-    else if (newGridSize > 100) {
-        createDivs(100);
-        header.textContent = `Grid size: 100`
-    }
-    else {
-        createDivs(newGridSize);
-        header.textContent = `Grid size: ${newGridSize}`
-    }
-})
