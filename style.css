@@ -14,3 +14,9 @@ body {
     aspect-ratio: 1/1;
     height: 100vh;
 }
+
+.spacer {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: black;
+}
